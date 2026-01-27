@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1e1e2f;
+  color: #fff;
+  padding: 20px;
+  height: 100vh;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.section {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.header-tabs button,
+.package-tabs button {
+  margin-right: 10px;
+  padding: 8px 16px;
+}
+
+.active {
+  background: #4a6cf7;
+  color: white;
+  border: none;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filters input,
+.filters select {
+  padding: 6px;
+}
+
+.search-btn {
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+}
+
+.route-info,
+.fare-summary {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flight-list {
+  display: flex;
+  gap: 20px;
+}
+
+.flight-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.price {
+  font-weight: bold;
+  color: #4a6cf7;
+}
